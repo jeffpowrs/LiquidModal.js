@@ -1,0 +1,38 @@
+/* -------------------------------------------------------------------------
+   Smart Modal @jeffpowrs 2013.04
+   ------------------------------------------------------------------------- */
+
+.fullscreen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.modal-container {
+  .fullscreen;
+  display: none;
+  background-color: white; 
+  text-align: center;
+  &:before {
+    display: inline-block;
+    margin-right: -0.31em;
+    height: 100%;
+    content: '';
+    vertical-align: middle;
+  }
+  &.active {
+    z-index: 99999;
+    display: block !important;
+    background-color: rgba(0,0,0,0.6);
+    .modal {
+      position: relative;
+      display: inline-block;
+      padding: 2em 3em 0;
+      width: 90%;
+      background-color: white;
+      vertical-align: middle;
+    }
+  }
+}

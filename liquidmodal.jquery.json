@@ -1,0 +1,41 @@
+{
+    "name": "liquidmodal",
+    "title": "Liquid Modal",
+    "description": "A Responsive jQuery Modal, that is vertically and horizontally centered using only CSS.",
+    "keywords": [
+        "modal",
+        "alert",
+        "dialog",
+        "lightbox",
+        "overlay",
+        "popup",
+        "prompt",
+        "responsive",
+        "fluid"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Jeff Powers",
+        "url": "http://jeffpow.rs"
+    },
+    "maintainers": [
+        {
+            "name": "Jeff Powers",
+            "email": "jpowers1010@gmail.com",
+            "url": "http://jeffpow.rs"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jeffpowrs/LiquidModal.js/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/jeffpowrs/LiquidModal.js/issues",
+    "homepage": "https://github.com/jeffpowrs/LiquidModal.js",
+    "docs": "https://github.com/jeffpowrs/LiquidModal.js",
+    "download": "https://github.com/jeffpowrs/LiquidModal.js",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
